@@ -39,7 +39,7 @@ install.packages(c("ggplot2", "dplyr", "circlize", "ComplexHeatmap"))
 install.packages("Seurat")
 devtools::install_github("jokergoo/ComplexHeatmap")
 install.packages("GSVA")
-install.packages("monocle")
+BiocManager::install("slingshot")
 install.packages("harmony")
 install.packages("CellChat")
 ```
